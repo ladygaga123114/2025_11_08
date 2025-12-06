@@ -1,0 +1,56 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "execution_count": 3,
+   "id": "bd4b971c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello! World!\n"
+      "花費的時間: 2.00 秒\n"
+     ]
+    }
+   ],
+   "source": [
+    "import time\n",
+    "import time \n",
+    "\n",
+    "def main_sync():\n",
+    "    pass\n",
+    "    start_time = time.time()\n",
+    "    time.sleep(2)\n",
+    "    end_time = time.time()\n",
+    "    print(f\"花費的時間: {(end_time - start_time):.2f} 秒\")\n",
+    "\n",
+    "if __name__ == \"__main__\":\n",
+    "    main_sync()\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "crawel",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.18"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
